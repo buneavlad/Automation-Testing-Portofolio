@@ -1,5 +1,6 @@
 const Helper = require('../pageobjects/helper.page');
 
+// tests for fashiondays.ro
 
 describe('should login with valid credentials', () => {
   it('should have the correct head title', async () => {
