@@ -2,7 +2,7 @@ const Helper = require('../pageobjects/helper.page');
 
 // tests for fashiondays.ro
 
-describe('should login with valid credentials', () => {
+describe('fashiondays.ro', () => {
   it('should have the correct head title', async () => {
         await Helper.open();
         await expect(browser).toHaveTitle('Colectii de moda pentru femei');        
